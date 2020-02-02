@@ -1,0 +1,107 @@
+<!-- W3hubs.com - Download Free Responsive Website Layout Templates designed on HTML5 CSS3,Bootstrap which are 100% Mobile friendly. w3Hubs all Layouts are responsive cross browser supported, best quality world class designs. -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login and Registration Form Using NES.css</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+    <style>
+      body{
+      font-family: 'Press Start 2P', cursive;
+      background-color: #f7f1e3;
+      padding: 0;
+      margin: 0;
+      }
+      h2{
+      text-align: center;
+      margin: 0;
+      padding-top: 15px;
+      }
+      .main{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      float: left;
+      }
+      .column{
+      width: 50%;
+      float: left;
+      padding: 30px;
+      }
+      button{
+      margin-top: 30px !important;
+      }
+      label{
+      padding-top: 15px;
+      }
+      .nes-checkbox{
+      margin-left: 10px;
+      }
+      input[type=number]::-webkit-inner-spin-button, 
+      input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+      }
+      @media(max-width: 900px){
+      .column{
+      width: 100%;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Login and Registration Form Using NES.css</h2>
+    </header>
+    <div class="main">
+      <div class="column">
+        <form>
+          <div class="nes-field">
+            <label for="name_field">Username</label>
+            <input type="text" class="nes-input" placeholder="Enter Username*">
+          </div>
+          <div class="nes-field">
+            <label for="name_field">Password</label>
+            <input type="text" class="nes-input" placeholder="Enter Password*">
+          </div>
+          <label>
+          <input type="checkbox" class="nes-checkbox" />
+          <span>Remember Me</span>
+          </label>
+        </form>
+        <button type="button" class="nes-btn is-primary">Login</button>
+      </div>
+      <div class="column">
+        <form>
+          <div class="nes-field">
+            <label for="name_field">Username</label>
+            <input type="text" class="nes-input" placeholder="Enter Username*"> 
+          </div>
+          <div class="nes-field">
+            <label for="name_field">Password</label>
+            <input type="text" class="nes-input" placeholder="Enter Password*">
+          </div>
+          <div class="nes-field">
+            <label for="name_field">Confirm Password</label>
+            <input type="text" class="nes-input" placeholder="Enter Confirm Password*">
+          </div>
+          <div class="nes-field">
+            <label for="name_field">Number</label>
+            <input type="number" class="nes-input" placeholder="Enter Mobile Number*">
+          </div>
+          <div class="nes-field">
+            <label for="name_field">Email</label>
+            <input type="text" class="nes-input" placeholder="Enter Email*">
+          </div>
+          <label>
+          <input type="checkbox" class="nes-checkbox" checked />
+          <span>Remember Me</span>
+          </label>
+        </form>
+        <button type="button" class="nes-btn is-primary">Register</button>
+      </div>
+    </div>
+  </body>
+</html>
